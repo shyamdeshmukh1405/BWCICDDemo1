@@ -1,0 +1,17 @@
+Manifest-Version: 1.0.0.202111040804
+Bundle-ManifestVersion: 2
+Bundle-Name: Mydemo Module
+Bundle-SymbolicName: mydemo.module
+Bundle-Version: 1.0.0.202111040804
+Bundle-Vendor: TIBCO Software Inc.
+TIBCO-BW-ApplicationModule: META-INF/module.bwm
+TIBCO-BW-ConfigProfile: META-INF/default.substvar
+TIBCO-BW-Edition: bwe
+TIBCO-BW-JobSharedVariables: META-INF/module.jsv
+Require-Capability: com.tibco.bw.model; filter:="(name=bwext)",com.tibco
+ .bw.sharedresource.model; filter:="(name=bw.httpconnector)",com.tibco.b
+ w.binding.model; filter:="(name=bw.rest)"
+TIBCO-BW-ModuleSharedVariables: META-INF/module.msv
+TIBCO-BW-Version: 6.7.0 V34 2020-11-06
+Bundle-ClassPath: .
+
